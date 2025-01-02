@@ -1,0 +1,137 @@
+*{
+    font-family: "poppins", serif;
+}
+
+/* top-menu_section start */
+.top-menu_section {
+    background-color: #99b851;
+}
+
+.top-menu_section a {
+    color: #fff;
+}
+
+.top-menu_section .top {
+    position: relative;
+}
+
+.top-menu_section .bottom {
+    content: "";
+    position: absolute;
+    top: 50%;
+   left: 98%;
+    border-radius: 5px; 
+    transform: translate(-50%, -50%);
+    background-color: #233103;
+    /* background-color: #384d07; */
+
+   
+}
+
+ .top-menu_section .bottom i {
+    color: #fff;
+} 
+
+
+.bannar_section h5 {
+    color: #99b851;
+
+}
+*{
+    font-family: "poppins", serif;
+}
+
+
+.top-menu_section {
+    background-color: #99b851;
+}
+
+.top-menu_section a {
+    color: #fff;
+}
+
+.top-menu_section .top {
+    position: relative;
+}
+
+.top-menu_section .bottom {
+    content: "";
+    position: absolute;
+    top: 50%;
+   left: 98%;
+    border-radius: 5px;
+    background-color: #00bec6;
+
+    transform: translate(-50%, -50%);
+}
+
+.top-menu_section .bottom i {
+    color: #fff;
+}
+
+/* top-menu_section end */
+t
+/* bannar_section start */
+
+.bannar_section .text_caption {
+    position: absolute;
+    top: 60%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to truly center the caption */
+    text-align: center; /* Center text inside the caption */
+  }
+
+  .bannar_section .carousel-caption h5 {
+    font-size: 2rem; /* Adjust as needed */
+    font-weight: bold;
+    color: #233103;
+  }
+
+  .bannar_section .carousel-caption p {
+    font-size: 1rem; /* Adjust as needed */
+    color: #233103;
+  }
+  /* bannar_section end */
+
+  .introduction_section h3{
+    color: #233103;
+
+  }
+  .introduction_section h4{
+    color: #233103;
+  }
+  .introduction_section p{
+    color: #233103;
+  }
+
+.introduction_section h5 {
+    color: #233103;
+}
+
+
+
+.video_section  h3{
+    color: #233103;
+}
+.video_section  p{
+    color: #233103;
+}
+
+.contact_section h2{
+    color: #233103;
+}
+.contact_section label{
+    color: #233103;
+}
+
+
+
+.footer_section {
+    background-color: #99b851;
+}
+.footer_section .container a,p{
+    color: #fff;
+}
+.footer_section .container  p{
+    color: #fff;
+}
