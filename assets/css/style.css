@@ -3,6 +3,51 @@
 }
 
 /* top-menu_section start */
+
+/* Smaller screens (Tablets and below) */
+@media (max-width: 992px) {
+    .bannar_section .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
+
+    .bannar_section .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
+/* Mobile screens (Mobile Phones) */
+@media (max-width: 768px) {
+    .bannar_section .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .bannar_section .carousel-caption p {
+        font-size: 0.9rem;
+    }
+
+    .bannar_section .carousel-item img {
+        height: auto;
+    }
+}
+
+/* Very small screens (Portrait mobile phones) */
+@media (max-width: 576px) {
+    .bannar_section .carousel-caption h5 {
+        font-size: 1rem;
+    }
+
+    .bannar_section .carousel-caption p {
+        font-size: 0.8rem;
+    }
+
+    /* Adjust carousel controls */
+    .carousel-control-prev-icon, 
+    .carousel-control-next-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
 .top-menu_section {
     background-color: #99b851;
 }
